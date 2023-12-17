@@ -1,0 +1,28 @@
+/* ... (previous CSS code) ... */
+
+
+/* Contact Section Hover Effect */
+
+.contact-section .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    /* Initial background color */
+    color: #fff;
+    /* Initial text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 10px;
+}
+
+.contact-section .contact-button:hover {
+    background-color: #e74c3c;
+    /* Hover background color */
+    color: #fff;
+    /* Hover text color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* ... (rest of the CSS code) ... */
